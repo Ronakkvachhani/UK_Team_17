@@ -1,0 +1,106 @@
+*{
+    padding:0px;
+    margin:0px;
+}
+table, th, td {
+    border: 5px solid black;
+    border-collapse: collapse;
+    font-size: 105px;
+    /* margin:auto */
+    /* margin-left:auto;
+    margin-right:auto; */
+/*    height: 10vh;*/
+    
+    
+    
+
+  }
+table {
+    height: 20vh;
+}
+  th, td {
+    padding: 5px;
+    text-align: left;
+    font-size: 75px;
+    margin-top:2px;
+  }
+  .head
+  {
+      text-align: center;
+      /* background-color: chocolate; */
+      height:10vh;
+      line-height: 10vh;
+      border : 10px outset black; 
+      /* width:100vw; */
+  }
+  body {
+    
+  }
+
+  .middle {
+    height:80vh;
+
+      background-image: url("1.jpg");
+     
+      background-repeat: ROUND;
+      
+    position: relative;
+    
+     
+  }
+  .animation
+{
+    
+    animation:  ganpatiji 20s infinite;}
+
+ @keyframes ganpatiji{
+    20%{color:black;background-color:greenyellow;}
+    
+	70%{color:whitesmoke;background-color:darkblue;}
+   
+}
+
+    .ta {
+      /* background-color: lightblue;
+      margin:auto; */
+      background-color: lightblue;
+      margin-top: 10vh;
+      
+    }
+
+     .ti{
+      /* margin-top:10vh; */
+      /* margin:auto;
+      */
+      /* position: absolute;
+      
+      left:50%;
+      top:25%;
+      transform: translate(-50%,-45%); */
+      display: flex;
+  justify-content: center;
+ 
+    } 
+    .highlight{
+      background-color: greenyellow;
+      color: black;
+      font-size: 55px;
+      border:5px solid blue;
+    }
+    .blank {
+      background-color:red;
+    }
+ #number {
+   background-color:burlywood;
+   text-align: center;
+   width:100vw;
+ }
+
+ #butto {
+   font-size: large;
+   background-color: darkblue;
+   color: yellow;
+ }
+ .blank {
+   background-color:red;
+ }
