@@ -51,7 +51,7 @@ table {
   .animation
 {
     
-    animation:  ganpatiji 20s infinite;}
+    animation:  ganpatiji 60s infinite;}
 
  @keyframes ganpatiji{
     20%{color:black;background-color:greenyellow;}
