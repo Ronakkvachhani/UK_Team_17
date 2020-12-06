@@ -38,7 +38,7 @@ table {
   }
 
   .middle {
-    height:80vh;
+    height:72vh;
 
       background-image: url("1.jpg");
      
@@ -103,4 +103,9 @@ table {
  }
  .blank {
    background-color:red;
+ }
+.footer {
+     font-size:34px;
+     height:9vh;
+	line-height:9vh;
  }
